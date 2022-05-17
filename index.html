@@ -10,20 +10,25 @@
   <body>
     <!-- Header Start -->
     <header id="header">
-      <!-- Logo Start -->
-      <a href="index.html"><img src="img/logo.png" alt="" /></a>
-      <!-- Logo Start -->
+          <!-- Logo Start -->
+        <a href="index.html"><img src="img/logo.png" alt="" /></a>
+        <!-- Logo Start -->
 
-      <!-- Navigation Bar Start -->
-      <ul id="navbar">
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="shop.html">Shop</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href=contact.html"">Contact</a></li>
-        <li><a href="cart.html"><ion-icon name="cart-outline"></ion-icon></a></li>
-      </ul>
-      <!-- Navigation Bar End -->
+        <!-- Navigation Bar Start -->
+        <ul id="navbar">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href=contact.html"">Contact</a></li>
+          <li id="cart"><a href="cart.html"><ion-icon name="cart-outline"></ion-icon></a></li>
+          <a href="#" id="close"><ion-icon name="close-outline"></ion-icon></a>
+        </ul>
+        <!-- Navigation Bar End -->
+      <div id="mobile">
+        <a href="cart.html"><ion-icon name="cart-outline"></ion-icon></a>
+        <ion-icon id="bar" name="menu-outline"></ion-icon>
+      </div>
     </header>
     <!-- Header End -->
 
@@ -411,7 +416,7 @@
   </div>
 </section>
 
-<footer class="section-m1">
+<footer class="section-m1 section-p1">
   <div class="col">
     <img src="img/logo.png" class="logo" alt="">
     <h4>Contact</h4>
